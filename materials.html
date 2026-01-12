@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Lengkap | IT disini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">IT <span>disini.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Dashboard</a>
+                <a href="materials.html" class="active">Materi</a>
+                <a href="weekly.html">Timeline</a>
+                <a href="profile.html">Profil</a>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <a href="index.html" class="btn-back">← Kembali ke Dashboard</a>
+
+        <div style="margin-bottom: 50px; text-align: center;">
+            <span style="border: 1px solid var(--primary); padding: 5px 15px; border-radius: 20px; color: var(--primary); font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 15px; display: inline-block;">STATUS: AKSES PENUH (SELESAI)</span>
+            <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Database Materi</h1>
+            <p style="color: var(--text-muted);">Arsip lengkap Bab 1 s.d. 14 (Turban, 10th Ed).</p>
+        </div>
+
+        <h2 style="color: var(--primary); margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">PART I: Tren Teknologi Digital</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 50px;">
+            
+            <article class="material-card">
+                <span class="badge">Bab 1</span>
+                <h3>Berbisnis di Era Digital</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Transformasi bisnis melalui model SoMoClo (Social, Mobile, Cloud) dan IoT.</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--primary);">Tags: SoMoClo, IoT, M2M</div>
+            </article>
+
+            <article class="material-card">
+                <span class="badge">Bab 2</span>
+                <h3>Tata Kelola & Arsitektur TI</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Enterprise Architecture (EA), Data Governance, dan manajemen Data Kotor.</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--primary);">Tags: EA, MDM, Cloud</div>
+            </article>
+
+            <article class="material-card">
+                <span class="badge">Bab 3</span>
+                <h3>Manajemen Data & Analitik</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Data Warehouse, Data Marts, dan konsep 4V dalam Big Data.</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--primary);">Tags: Hadoop, SQL, Big Data</div>
+            </article>
+
+            <article class="material-card">
+                <span class="badge">Bab 4</span>
+                <h3>Jaringan Operasional</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Infrastruktur jaringan, API, Net Neutrality, dan konektivitas nirkabel (4G/5G).</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--primary);">Tags: API, TCP/IP, Wi-Fi</div>
+            </article>
+
+            <article class="material-card">
+                <span class="badge">Bab 5</span>
+                <h3>Keamanan Siber (Cybersecurity)</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Manajemen risiko, jenis ancaman (Malware, Phishing), dan kepatuhan regulasi.</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--primary);">Tags: Risk, BYOD, Hacktivism</div>
+            </article>
+        </div>
+
+        <h2 style="color: var(--secondary); margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">PART II: Konsumen & Keterlibatan</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 50px;">
+            
+            <article class="material-card">
+                <span class="badge" style="background: var(--secondary); color: white;">Bab 6</span>
+                <h3>Pencarian & Teknologi Semantik</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Strategi SEO, Web Semantik, dan sistem rekomendasi untuk menarik pelanggan.</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--secondary);">Tags: SEO, Semantic Web, Crawlers</div>
+            </article>
+
+            <article class="material-card">
+                <span class="badge" style="background: var(--secondary); color: white;">Bab 7</span>
+                <h3>Jejaring Sosial (Social Networking)</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Web 2.0, komunitas virtual, dan strategi keterlibatan sosial.</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--secondary);">Tags: Social Graph, Crowdsourcing</div>
+            </article>
+
+            <article class="material-card">
+                <span class="badge" style="background: var(--secondary); color: white;">Bab 8</span>
+                <h3>Ritel & E-Commerce</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Perdagangan seluler (M-Commerce), sistem pembayaran, dan strategi pemasaran digital.</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--secondary);">Tags: B2B, B2C, Mobile Wallet</div>
+            </article>
+        </div>
+
+        <h2 style="color: var(--accent); margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">PART III: Kinerja Bisnis</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 50px;">
+            
+            <article class="material-card">
+                <span class="badge" style="background: var(--accent); color: white;">Bab 9</span>
+                <h3>Sistem Fungsi Bisnis</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Sistem informasi untuk manufaktur, HR, Akuntansi, dan Keuangan.</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--accent);">Tags: CIM, HRIS, XBRL</div>
+            </article>
+
+            <article class="material-card">
+                <span class="badge" style="background: var(--accent); color: white;">Bab 10</span>
+                <h3>Sistem Perusahaan (Enterprise)</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Integrasi via ERP, Manajemen Rantai Pasok (SCM), dan CRM.</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--accent);">Tags: ERP, CRM, SCM</div>
+            </article>
+
+            <article class="material-card">
+                <span class="badge" style="background: var(--accent); color: white;">Bab 11</span>
+                <h3>Visualisasi Data & GIS</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Dashboard manajemen, Data Mashups, dan Sistem Informasi Geografis.</p>
+                <div class="mono-font" style="font-size: 0.8rem; color: var(--accent);">Tags: GIS, Dashboards, Geospatial</div>
+            </article>
+        </div>
+
+        <h2 style="color: #fff; margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">PART IV: Manajemen Strategis</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+            
+            <article class="material-card">
+                <span class="badge" style="background: #333; color: white; border:1px solid white;">Bab 12</span>
+                <h3>Strategi & Perencanaan TI</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Penyelarasan TI-Bisnis, Balanced Scorecard, dan komputasi awan strategis.</p>
+            </article>
+
+            <article class="material-card">
+                <span class="badge" style="background: #333; color: white; border:1px solid white;">Bab 13</span>
+                <h3>Manajemen Proyek & SDLC</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Metodologi pengembangan sistem (Agile, Waterfall) dan manajemen proyek.</p>
+            </article>
+
+            <article class="material-card">
+                <span class="badge" style="background: #333; color: white; border:1px solid white;">Bab 14</span>
+                <h3>Etika & Privasi TI</h3>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Isu privasi, kekayaan intelektual, dan dampak sosial teknologi ("Dark Side").</p>
+            </article>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-address">
+                <strong>IT disini.</strong>
+                <p>Jl. Imam Bonjol No.207, Semarang</p>
+            </div>
+            <div style="text-align: right;">&copy; 2026 Rama Adhi Saputra</div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

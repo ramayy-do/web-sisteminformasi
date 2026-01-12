@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil | IT disini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">IT <span>disini.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Dashboard</a>
+                <a href="materials.html">Materi</a>
+                <a href="weekly.html">Timeline</a>
+                <a href="profile.html" class="active">Profil</a>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <main class="container" style="max-width: 900px;">
+        <a href="index.html" class="btn-back">← Kembali ke Dashboard</a>
+
+        <div style="background: var(--bg-panel); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; overflow: hidden;">
+            <div style="height: 150px; background: linear-gradient(90deg, var(--primary), var(--accent)); opacity: 0.8;"></div>
+            
+            <div style="padding: 0 30px 40px; position: relative;">
+                <div style="width: 120px; height: 120px; background: #111; border: 4px solid var(--bg-deep); border-radius: 50%; margin-top: -60px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: white; box-shadow: 0 0 20px rgba(0,0,0,0.5);">RAS</div>
+                
+                <div style="margin-top: 20px;">
+                    <h1 style="font-size: 2.2rem; margin-bottom: 5px;">Rama Adhi Saputra</h1>
+                    <p style="color: var(--primary); font-family: 'JetBrains Mono', monospace;">Student ID: A11.2024.15847</p>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; margin-top: 40px;">
+                    
+                    <div>
+                        <h3 style="color: white; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; margin-bottom: 15px;">Tentang Saya</h3>
+                        <p style="color: var(--text-muted); line-height: 1.8;">
+                            Mahasiswa Teknik Informatika dari Universitas Dian Nuswantoro yang sedang mendalami fundamental sistem informasi. 
+                            Memiliki ketertarikan kuat pada pengembangan Frontend/Backend dan jaringan komputer.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 style="color: white; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; margin-bottom: 15px;">Skill Set</h3>
+                        <div style="display: flex; flex-direction: column; gap: 10px;">
+                            <div>
+                                <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 5px;">
+                                    <span>C++ / Logic</span>
+                                    <span>Fundamental</span>
+                                </div>
+                                <div style="height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px;">
+                                    <div style="width: 50%; height: 100%; background: var(--secondary); border-radius: 3px; box-shadow: 0 0 10px var(--secondary);"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 5px;">
+                                    <span>PHP Native</span>
+                                    <span>Fundamental</span>
+                                </div>
+                                <div style="height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px;">
+                                    <div style="width: 45%; height: 100%; background: var(--primary); border-radius: 3px; box-shadow: 0 0 10px var(--primary);"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 5px;">
+                                    <span>HTML / CSS</span>
+                                    <span>Intermediate</span>
+                                </div>
+                                <div style="height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px;">
+                                    <div style="width: 60%; height: 100%; background: var(--accent); border-radius: 3px; box-shadow: 0 0 10px var(--accent);"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 5px;">
+                                    <span>Figma Design</span>
+                                    <span>Fundamental</span>
+                                </div>
+                                <div style="height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px;">
+                                    <div style="width: 50%; height: 100%; background: var(--warning); border-radius: 3px; box-shadow: 0 0 10px var(--warning);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 40px; padding: 20px; background: rgba(0, 242, 234, 0.05); border: 1px dashed var(--primary); border-radius: 12px;">
+                    <h4 style="color: var(--primary); margin-bottom: 10px;">📍 Base Location (Universitas Dian Nuswantoro)</h4>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">
+                        Jl. Imam Bonjol No.207, Pendrikan Kidul, Kec. Semarang Tengah,<br>
+                        Kota Semarang, Jawa Tengah 50131
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

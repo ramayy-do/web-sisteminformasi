@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline | IT disini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">IT <span>disini.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Dashboard</a>
+                <a href="materials.html">Materi</a>
+                <a href="weekly.html" class="active">Timeline</a>
+                <a href="profile.html">Profil</a>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <main class="container" style="max-width: 800px;">
+        <a href="index.html" class="btn-back">← Kembali ke Dashboard</a>
+        
+        <h1 style="margin-bottom: 10px;">Timeline Perkuliahan</h1>
+        <p style="color: var(--text-muted); margin-bottom: 50px;">
+            Status: <span style="color: var(--primary); font-weight: bold;">MASA UJIAN AKHIR (UAS)</span>. 
+            Seluruh materi Bab 1-14 telah diselesaikan.
+        </p>
+
+        <div class="timeline-container">
+            
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--primary); box-shadow: 0 0 10px var(--primary);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--primary);">Minggu 1: Intro & Bisnis Digital</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 1: Transformasi bisnis melalui model SoMoClo (Social, Mobile, Cloud) dan IoT.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--primary); box-shadow: 0 0 10px var(--primary);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--primary);">Minggu 2: Data Governance</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 2: Arsitektur Perusahaan (EA) dan manajemen data induk (MDM) untuk mencegah 'Dirty Data'.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--secondary); box-shadow: 0 0 10px var(--secondary);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--secondary);">Minggu 3: Big Data & Analitik</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 3: Data Warehouse, Data Marts, dan konsep 4V dalam Big Data serta Hadoop.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--secondary); box-shadow: 0 0 10px var(--secondary);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--secondary);">Minggu 4: Jaringan Operasional</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 4: Infrastruktur jaringan, API, Net Neutrality, dan konektivitas nirkabel (4G/5G).</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--accent);">Minggu 5: Keamanan Siber</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 5: Manajemen risiko, jenis ancaman (Malware, Phishing), dan pertahanan siber.</p>
+                </div>
+            </div>
+
+             <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--accent);">Minggu 6: SEO & Pencarian</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 6: Strategi SEO, Web Semantik, dan sistem rekomendasi untuk menarik pelanggan.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--primary); box-shadow: 0 0 10px var(--primary);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--primary);">Minggu 7: Social Networking</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 7: Web 2.0, komunitas virtual, dan strategi keterlibatan sosial.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--secondary); box-shadow: 0 0 10px var(--secondary);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--secondary);">Minggu 8: Ritel & E-Commerce</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 8: Perdagangan seluler (M-Commerce), sistem pembayaran, dan strategi pemasaran digital.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--accent);">Minggu 9: Sistem Fungsi Bisnis</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 9: Sistem informasi untuk manufaktur, HR, Akuntansi, dan Keuangan.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--primary); box-shadow: 0 0 10px var(--primary);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--primary);">Minggu 10: Enterprise Systems</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 10: Integrasi sistem perusahaan via ERP, Manajemen Rantai Pasok (SCM), dan CRM.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--secondary); box-shadow: 0 0 10px var(--secondary);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--secondary);">Minggu 11: Visualisasi Data & GIS</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 11: Dashboard manajemen, Data Mashups, dan Sistem Informasi Geografis.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--accent);">Minggu 12: Strategi TI</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 12: Penyelarasan TI-Bisnis, Balanced Scorecard, dan komputasi awan strategis.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--primary); box-shadow: 0 0 10px var(--primary);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--primary);">Minggu 13: Project Management</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 13: Metodologi pengembangan sistem (Agile, Waterfall, SDLC) dan manajemen proyek.</p>
+                </div>
+            </div>
+
+            <div class="timeline-block">
+                <div class="timeline-dot" style="background: var(--secondary); box-shadow: 0 0 10px var(--secondary);"></div>
+                <div class="timeline-item">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: var(--secondary);">Minggu 14: Etika & Privasi TI</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--text-muted);">Completed ✅</span>
+                    </div>
+                    <p style="color: var(--text-muted);">Membahas Bab 14: Isu privasi, kekayaan intelektual, dan dampak sosial teknologi ("Dark Side").</p>
+                </div>
+            </div>
+
+            <div class="timeline-block" style="margin-bottom: 0;">
+                <div class="timeline-dot" style="background: white; border-radius: 50%; box-shadow: 0 0 20px white; border: 2px solid white;"></div>
+                
+                <div class="timeline-item" style="border: 1px solid white; background: rgba(255,255,255,0.05); box-shadow: 0 0 30px rgba(255,255,255,0.1);">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <h3 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0.5);">UJIAN AKHIR SEMESTER</h3>
+                        <span class="mono-font" style="font-size: 0.8rem; color: var(--primary); font-weight: bold; background: rgba(0,242,234,0.1); padding: 2px 8px; border-radius: 4px; border: 1px solid var(--primary);">CURRENT STAGE</span>
+                    </div>
+                    <p style="color: white; font-size: 1rem;">
+                        Review Menyeluruh Bab 1 - 14.<br>
+                        <span style="color: var(--text-muted); font-size: 0.9rem;">"Semua bab akan dibahas pada UAS!"</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

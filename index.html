@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT disini | Sistem Informasi Learning Track</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                IT <span>disini.</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="active">Dashboard</a>
+                <a href="materials.html">Materi</a>
+                <a href="weekly.html">Timeline</a>
+                <a href="profile.html">Profil</a>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <span class="hero-badge">Mahasiswa Angkatan 2024</span>
+        <h1>Track Catatan Pembelajaran <br> <span style="color: var(--primary);">Sistem Informasi</span></h1>
+        <p>
+            Platform dokumentasi digital untuk mata kuliah Sistem Informasi. 
+            Ringkas, terstruktur, dan siap diakses kapan saja.
+        </p>
+
+        <div class="tech-stack">
+            <span class="tech-tag">C++ Fundament</span>
+            <span class="tech-tag">PHP Native</span>
+            <span class="tech-tag">Network Basics</span>
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">UI Design</span>
+        </div>
+    </header>
+
+    <main class="dashboard-grid">
+        <a href="materials.html" class="bento-card col-span-8" style="border-color: var(--primary);">
+            <div>
+                <div class="card-icon">📚</div>
+                <h3>Materi Kuliah Lengkap</h3>
+                <p>Akses rangkuman Bab 1 - 14 dari buku Turban (10th Ed). Terstruktur rapi per topik bahasan.</p>
+            </div>
+            <span class="bento-arrow">Buka Materi →</span>
+        </a>
+
+        <a href="weekly.html" class="bento-card col-span-4">
+            <div>
+                <div class="card-icon" style="color: var(--secondary);">⚡</div>
+                <h3>Timeline Mingguan</h3>
+                <p>Cek progres belajar minggu ini. Apa yang baru saja dipelajari?</p>
+            </div>
+            <span class="bento-arrow" style="color: var(--secondary);">Lihat Progres →</span>
+        </a>
+
+        <a href="profile.html" class="bento-card col-span-12">
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <div style="width: 60px; height: 60px; background: #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: white; flex-shrink: 0;">RAS</div>
+                <div>
+                    <h3 style="margin: 0; font-size: 1.2rem;">Rama Adhi Saputra</h3>
+                    <p style="margin: 0; font-size: 0.9rem;">Lihat detail profil akademik & portofolio skill saya.</p>
+                </div>
+            </div>
+            <span class="bento-arrow" style="color: var(--accent);">Lihat Profil →</span>
+        </a>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-address">
+                <div class="logo" style="font-size: 1.2rem; margin-bottom: 15px;">IT <span>disini.</span></div>
+                <strong>Lokasi Kampus:</strong>
+                <p>Jl. Imam Bonjol No.207, Pendrikan Kidul,<br>
+                Kec. Semarang Tengah, Kota Semarang,<br>
+                Jawa Tengah 50131</p>
+            </div>
+            <div style="text-align: right; align-self: end;">
+                <p>&copy; 2026 Rama Adhi Saputra.</p>
+                <p class="mono-font" style="color: var(--primary); font-size: 0.8rem; margin-top: 5px;">> SYSTEM_ONLINE</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
